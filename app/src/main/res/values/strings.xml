@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Synthesizer</string>
+    <string name="b">B</string>
+    <string name="bFlat">B♭</string>
+    <string name="a">A</string>
+    <string name="scale">SCALE</string>
+    <string name="c">C</string>
+    <string name="csharp">C♯</string>
+    <string name="dsharp">D♯</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="d">D</string>
+    <string name="fsharp">F♯</string>
+    <string name="g">G</string>
+    <string name="gsharp">G♯</string>
+    <string name="highA">A</string>
+    <string name="highBb">B♭</string>
+    <string name="highb">B</string>
+    <string name="highC">C</string>
+    <string name="highCsharp">C♯</string>
+    <string name="highD">D</string>
+    <string name="highDsharp">D♯</string>
+    <string name="highE">E</string>
+    <string name="highF">F</string>
+    <string name="highFsharp">F♯</string>
+    <string name="highG">G</string>
+    <string name="highGsharp">G♯</string>
+    <string name="e_scale">E Scale</string>
+    <string name="repeat_sound">Repeat Sound</string>
+    <string name="song">Song</string>
+    <string name="the_button">THE BUTTON</string>
+    <string name="suprise">SUPRISE</string>
+</resources>
