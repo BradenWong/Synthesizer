@@ -358,7 +358,7 @@ public class SynthesizerActivity extends AppCompatActivity implements View.OnCli
                 scheduleSongs(1000, playTakeOnMe());
                 break;
             case R.id.button_synth_darude:
-                scheduleSongs(1000, playLeftSong());
+                playTheSong();
                 break;
             case R.id.button_synth_scale:
                 playScale();
