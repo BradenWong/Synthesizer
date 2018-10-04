@@ -3,7 +3,7 @@ import java.util.List;
 public class Note {
     private int noteID;
     private int delay;
-    public static final int WHOLE_NOTE = 3000;
+    public static final int WHOLE_NOTE = 1000;
 
     public Note(int noteID, int delay){
         this.noteID= noteID;

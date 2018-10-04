@@ -126,6 +126,7 @@ public class SynthesizerActivity extends AppCompatActivity implements View.OnCli
         handler = new Handler();
         wireWidgets();
         setListeners();
+        initalizeNoteMap();
         initializeSoundPool();
     }
     private void wireWidgets() {
@@ -206,6 +207,19 @@ public class SynthesizerActivity extends AppCompatActivity implements View.OnCli
         noteMap.put(R.id.button_synth_fsharp, noteFs);
         noteMap.put(R.id.button_synth_g, noteG);
         noteMap.put(R.id.button_synth_gsharp, noteGs);
+        noteMap.put(R.id.button_synth_highA, noteHighA);
+        noteMap.put(R.id.button_synth_highBb, noteHighBb);
+        noteMap.put(R.id.button_synth_highB, noteHighB);
+        noteMap.put(R.id.button_synth_highC, noteHighC);
+        noteMap.put(R.id.button_synth_highCs, noteHighCs);
+        noteMap.put(R.id.button_synth_highD, noteHighD);
+        noteMap.put(R.id.button_synth_highDs, noteHighDs);
+        noteMap.put(R.id.button_synth_highEs, noteHighE);
+        noteMap.put(R.id.button_synth_highF, noteHighF);
+        noteMap.put(R.id.button_synth_highFs, noteHighFs);
+        noteMap.put(R.id.button_synth_highG, noteHighG);
+        noteMap.put(R.id.button_synth_highGs, noteHighGs);
+
 
     }
 
@@ -355,7 +369,7 @@ public class SynthesizerActivity extends AppCompatActivity implements View.OnCli
                 scheduleSongs(2000, playTakeOnMe(), playLeftSong());
                 break;
             case R.id.button_synth_song:
-                scheduleSongs(1000, playTakeOnMe());
+                playASong();
                 break;
             case R.id.button_synth_darude:
                 playTheSong();
